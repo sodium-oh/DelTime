@@ -1,9 +1,9 @@
 import sys
 import time
-from PyQt5.QtWidgets import (QWidget, QSizePolicy, QDesktopWidget, QGridLayout, QLineEdit, QTextEdit, QTextBrowser, 
-    QPushButton, QApplication, QMessageBox, QLabel)
+from PyQt5.QtWidgets import (QWidget, QDesktopWidget, QGridLayout, QLineEdit, QTextEdit, QTextBrowser, 
+    QPushButton, QApplication, QLabel)
 from PyQt5.QtGui import (QIcon, QFont, QPainter, QPen, QColor)
-from PyQt5.QtCore import (QCoreApplication, Qt, QTranslator, QThread, pyqtSignal, QSize)
+from PyQt5.QtCore import (QCoreApplication, Qt, QThread, pyqtSignal, QSize)
 
 class AllTime(QThread):
 
